@@ -4,12 +4,21 @@ body {
 }
 
 header {
-    margin: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-top: 30px;
     color: #1F363D;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 h2 {
     margin: 30px;
+}
+
+section {
+    margin: 250px auto 0 auto;
 }
 
 a {
