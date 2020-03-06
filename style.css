@@ -24,13 +24,10 @@ h2:hover {
     transform: rotate(-10deg);
 }
 
-li {
-    list-style: none;
-    font-size: 20px;
-    margin: 50px;
-}
-
 a {
+    display: block;
+    font-size: 20px;
+    margin: 20px;
     text-decoration: none;
     color: black;
     transition: color .2s, font-size .5s;
