@@ -1,39 +1,32 @@
 body {
     text-align: center;
-    background-color: lightsalmon;
+    background-color: #70A9A1;
 }
 
 header {
     margin: 60px;
-}
-
-h1 {
-    transition: transform .5s;
-}
-
-h1:hover {
-    transform: rotate(10deg);
+    color: #1F363D;
 }
 
 h2 {
-    transition: transform .5s;
     margin: 30px;
-}
-
-h2:hover {
-    transform: rotate(-10deg);
 }
 
 a {
     display: block;
-    font-size: 20px;
-    margin: 20px;
+    background-color: #9EC1A3;
+    font-size: 30px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px auto;
     text-decoration: none;
-    color: black;
-    transition: color .2s, font-size .5s;
+    border-radius: 20px 0;
+    color: #1F363D;
+    transition: color .2s, font-size .5s, padding .5s;
 }
 
 a:hover {
-    color: rgb(255, 255, 255);
+    color: #B1EDE8;
     font-size: 40px;
+    padding: 15px 10px;
 }
